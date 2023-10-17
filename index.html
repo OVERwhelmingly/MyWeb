@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="https://www.nuist.edu.cn/_upload/tpl/00/43/67/template67/images/favicon.ico" />
+    
+    <script src="./index.js"></script>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JERRY KING</title>
+    <link href="./index.css" type="text/css" rel="stylesheet" />
+  </head>
+
+  <body>
+
+    <!--导航栏-->
+    <ul class="topnav">
+      <li class="topnav"><a class="active" href="#wdgrjj">我的个人简介</a></li>
+      <li class="topnav"><a href="#wdgrxx">我的个人信息</a></li>
+      <li class="topnav"><a href="#wdbcxx">我的编程学习</a></li>
+      <li class="topnav"><a href="#wdlxfs">我的联系方式</a>
+      <li class="topnav"><a href="#qlxndxx">请留下你的信息</a></li>
+    </ul>
+
+    <br>
+    <!--头部区域-->
+    <h1 class="header">
+      欢迎来到我的个人主页
+    </h1>
+
+    <p class="pos_fixed">广告位招租</p>
+
+    <hr>
+
+    <a name="wdgrjj"></a>
+    <h2 class="center">我的个人简介</h2>
+    <img src="./src/JERRY.jpg" class="idphoto">
+    
+    <div class="overflow-scroll">
+      金杰睿，<a class="normal" href="https://www.nuist.edu.cn/main.htm">南京信息工程大学</a>本科生<br>
+      2021级本科生<br>
+      来自<a class="normal" href="https://software.nuist.edu.cn/main.htm">软件学院</a><br>
+      学习软件工程专业<br>
+      热爱数学<br>
+      喜欢学习和科研<br>
+      也喜欢睡觉<br>
+    </div>
+    
+    <hr>
+    <a name="wdgrxx"></a>
+    <h2 class="center">我的个人信息</h2>
+    <table>
+      <div style="text-align: center;">
+        <tr>
+            <th><h3>属性</h3></th>
+            <th><h3>信息</h3></th>
+        </tr>
+        <tr>
+            <td><p>姓名</p></td>
+            <td><p>金杰睿</p></td>
+        </tr>
+        <tr>
+            <td><p>性别</p></td>
+            <td><p>男</p></td>
+        </tr>
+      </div>
+  </table>
+
+  <hr>
+  <a name="wdbcxx"></a>
+  <h2 class="center">我的编程学习</h2>
+  <ul>
+    <li> C/C++ </li>
+    <li> python </li>
+    <li> Java </li>
+    <li> matlab </li>
+  </ul>
+
+  <a name="wdlxfs"></a>
+  <h2 class="center">我的联系方式</h2>
+  <p class="center">QQ：921052541</p>
+  <p class="center">联系电话：13951008240</p>
+
+  <a name="qlxndxx"></a>
+  <h2 class="center">请留下你的信息</h2>
+  <form>
+    <p class="center">姓名：<input type = "text" name = "account" id = "input_name"><br></p>
+    <p class="center">联系方式：<input type = "password" name = "pwd" id = "input_phone"><br></p>
+    <p class="center">请选择你的性别：<input type = "radio" name = "sex" value = "male">男
+      <input type = "radio" name = "sex" value = "female">女<br></p>
+  </form>
+
+  <input type="button" onclick="myFunction()" value="提交" class="button_submit">
+
+  </body>
+</html>

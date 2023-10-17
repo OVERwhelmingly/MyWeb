@@ -1,0 +1,160 @@
+/*设置背景*/
+body{
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url(./src/海绵宝宝.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/*设置头部区域*/
+.header {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+    font-family: '微软雅黑';
+    font-weight: bolder;
+    font-size: 24px;
+}
+
+/*导航栏*/
+ul.topnav{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 3;
+}
+li.topnav {
+    float: left;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover:not(.active) {
+    background-color: #111;
+}
+.active {
+    background-color: #4CAF50;
+}
+
+a.top{
+    text-decoration: none;
+}
+a.top:link {color:#ffffff;}      /* 未访问链接*/
+a.top:visited {color:rgb(255, 255, 255)}  /* 已访问链接 */
+a.top:hover {color:#a5ddbc;}  /* 鼠标移动到链接上 */
+a.top:active {color:#68a4cf;}  /* 鼠标点击时 */
+
+
+a.normal{
+    text-decoration: none;
+}
+a.normal:link {color:#173d65;}      /* 未访问链接*/
+a.normal:visited {color:#173d65;}  /* 已访问链接 */
+a.normal:hover {color:#156134;}  /* 鼠标移动到链接上 */
+a.normal:active {color:#4e2809;}  /* 鼠标点击时 */
+
+/*固定段落样式*/
+p.pos_fixed{
+    outline-style: dashed;
+    outline-width: 4px;
+    padding: 1%;
+    background-color: cornsilk;
+    position: fixed;
+    top: 100px;
+    right: 40px;
+    font-family: '黑体';
+    font-size: 30px;
+    font-weight: bolder;
+    z-index: 2;
+}
+
+/*居中样式*/
+.center{
+    text-align: center;
+}
+
+/*列表图标样式与大小调整*/
+ul li {
+    list-style-type: none;
+    background: url("./src/编程.png") no-repeat 31rem 0.2rem;
+    background-size: 1.5rem 1.5rem;
+    text-indent: 2em;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/*表格样式*/
+table{
+    border-collapse: collapse;
+    border: 1px solid black;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: solid;
+    border-bottom-width: 4px;
+}
+
+th{
+    background-color: cadetblue;
+    border-bottom-style: solid;
+    border-top-style: solid;
+    border-bottom-width: 2px;
+    border-top-width: 4px;
+}
+
+td{
+    background-color: antiquewhite;
+}
+
+
+/*滚动框*/
+div.overflow-scroll{
+    position: absolute;
+    top: 40%;
+    margin-left: 20%;
+    height: 150px;
+    width: 78%;
+    overflow: scroll;
+    text-align: center;
+    font-family: '宋体';
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+/*证件照*/
+img.idphoto{
+    position: relative;
+    left: 3%;
+    width: 103px;
+    height: 151px;
+}
+
+
+input.button_submit{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    text-align: center;
+    margin-left: 40%;
+    margin-right: 60%;
+    width: 20%;
+    cursor: pointer;
+}
